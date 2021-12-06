@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\Pictures\\tech stuff\\project 1"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\04-navbar"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\05-sidebar"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\06-modal"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\07-questions"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\08-menu"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\09-video"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\10-scroll"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\11-tabs"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\12-countdown-timer"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\13-lorem-ipsum"
+		},
+		{
+			"path": "..\\..\\..\\..\\Pictures\\tech stuff\\space"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\javascript-basic-projects-master\\javascript-basic-projects-master\\03-reviews"
+		},
+		{
+			"path": "..\\..\\..\\..\\Pictures\\tech stuff\\project 3"
+		},
+		{
+			"path": "..\\..\\..\\..\\Pictures\\tech stuff\\project 2"
+		},
+		{
+			"path": "..\\..\\..\\..\\Documents\\tobi"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "13-lorem-ipsum"
+	}
+}
