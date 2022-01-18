@@ -71,7 +71,7 @@ body {
   line-height: 1.5;
   display: grid;
   grid-template-rows: min-content 1fr;
-  background-image:url(//assests/back.jpg);
+  background-image: url(../../assests/back.jpg);
   
 }
 
@@ -94,13 +94,6 @@ textarea,
 select {
   font: inherit;
 }
-
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
-  
   *,
   *::before,
   *::after {
@@ -109,7 +102,7 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
+
 
 /* utility class */
 
@@ -145,7 +138,7 @@ select {
 .letter-spacing-2 { letter-spacing: 2.7px; } 
 .letter-spacing-3 { letter-spacing: 2.35px; } 
 
-.uppercase { text-transform: uppercase; }
+.uppercase { text-transform: uppercase;}
 
 
 /* navigation */
@@ -163,14 +156,12 @@ select {
 
 ul{
   list-style-type: none;
- 
 }
 li{
   float: left;
   display: block;
   padding-bottom: 2rem;
   padding-top: 1rem;
-
 }
 .logo{
   margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
@@ -192,7 +183,7 @@ li{
     border-bottom: .2rem solid white;
     padding: 2.28rem;
     
-  
+
   }
   .line-hover > .active{
     border-bottom: .2rem solid white;
@@ -249,7 +240,7 @@ p{
 
  @media (max-width:51em) {
   body{
-    background-image: url(/assests/background-home-tablet.jpg);
+    background-image: url(../../assests/background-home-tablet.jpg) !important;
     background-size: cover;
   }
  
@@ -294,13 +285,17 @@ p{
 }
 @media (max-width:37.99em) {
    body{
-    background-image: url(//assests/background-home-mobile.jpg);
+    background-image: url(../../assests/background-home-mobile.jpg) !important;
     background-size: cover;
+  }
+  li{
+    float: none !important;
   }
   .menu-btn{
     display: block;
     position: absolute;
-    z-index: 5000;
+    float: none !important;
+    /* z-index: 5000; */
     right: 1rem;
     top: 2rem;
     background-repeat: no-repeat;
@@ -311,26 +306,30 @@ p{
   }
   
   .side-menu{
+    /* display: block !important; */
     background: hsl( var(--clr-white) / 0.05);
     backdrop-filter: blur(1.5rem);
     flex-direction: column;
     position: fixed;
     z-index: 2000;
-    float: none;
-    inset:  0 0 0 65% ;
+    height: 100vh !important;
+    inset:  0 0 0 50% ;
     font-size: var(--fs-400);
     padding: 2rem 0rem;
     line-height: 4rem;
     transform: translate(-500%);
+   
+    
   }
   .show-sidebar{
     transform: translate(0);
   }
+
 }
 
 /* desitnation page */
 .bgimage-desktop
-{background-image: url(//assests/background-destination-desktop.jpg);}
+{background-image: url(../../assests/background-destination-desktop.jpg) !important;}
 
 .main{
  display: grid;
@@ -369,7 +368,7 @@ p{
 .ul-destination{
   /* padding-right: 1rem; */
   margin: 0;
-  float: left;
+  float: left !important;
   padding-right: 3rem ;
 }
 .second-column{
@@ -392,7 +391,7 @@ hr{
 
 @media (max-width:51em) {
   .bgimage-tablet{
-    background-image: url(//assests/background-destination-tablet.jpg);
+    background-image: url(../../assests/background-destination-tablet.jpg) !important;
   }
   .image-in-destination{
     width:20rem;
@@ -415,5 +414,5 @@ hr{
 
 }
 @media (max-width:37.99em) {
-  .bgimage-mobile{background-image: url(//assests/background-destination-mobile.jpg);}
+  .bgimage-mobile{background-image: url(../../assests/background-destination-mobile.jpg) !important ; }
 }
