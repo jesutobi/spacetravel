@@ -252,7 +252,11 @@ p{
   li{
     float: left;
     display: block;
+    transition: all 0.7s ease-in-out;
     padding: 0.5rem 0.5rem;
+  }
+  :hover li {
+    transition: all 1s ease-in-out;
   }
   .logo{
     margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
@@ -278,7 +282,7 @@ p{
   .line-hover * a:focus{
     border-bottom: .2rem solid white;
     padding: 0.7rem;
-    transition: transform 500ms ease-in-out;
+  
   
   }
  
@@ -295,7 +299,7 @@ p{
     display: block;
     position: absolute;
     float: none !important;
-    /* z-index: 5000; */
+    z-index: 5000;
     right: 1rem;
     top: 2rem;
     background-repeat: no-repeat;
